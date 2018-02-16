@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+group = 'com.github.lucasvc.gradle.eclipse.wsl'
+version = '1.0'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	compile 'org.apache.commons:commons-lang3:3.7'
+}
